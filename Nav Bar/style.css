@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+width: 1170px;
+    
+margin: auto;
+}
+nav ul{
+list-style-type: none;
+text-align: center;
+}
+nav ul li{
+display: inline-block;
+}
+nav ul li a{
+padding: 30px 20px;
+display: inline-block;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+    
+}
+nav{
+background-color: #1dd1a1;
+}
+nav ul li a:hover{
+background-color: #10ac84;
+}
+
+nav .myclass{
+position: relative;
+
+}
+nav .myclass:hover .sub{
+opacity: 1;
+top: 100%;
+}
+
+nav .sub{
+background-color:#1dd1a1;
+position: absolute;
+width: 150px;
+opacity: 0;
+top: 200px;
+transition: 0.5s;
+}
+nav .sub li a{
+width: 150px;
+}
+
+nav .clsmon{
+    position: relative;
+}
+
+nav .clsmon:hover .inch{
+    opacity: 1;
+    top: 0;
+}
+nav .inch{
+    background-color: #1dd1a1;
+    position: absolute;
+    width: 150px;
+    opacity: 0;
+    top: 200px;
+    left: 100%;
+    transition: 0.5s;
+}
+
+nav .ekram{
+    position: relative;
+}
+nav .ekram:hover .brand{
+    opacity: 1;
+    top: 0;
+}
+
+nav .brand{
+    background-color: #1dd1a1;
+    position: absolute;
+    width: 150px;
+    opacity: 0;
+    top: 200px;
+    left: 100%;
+    transition: 0.5s;
+
+}
+nav .erfan{
+    position: relative;
+}
+nav .erfan:hover .shawon{
+    opacity: 1;
+    top: 0;
+}
+nav .shawon{
+    background-color: #1dd1a1;
+    position: absolute;
+    width: 150px;
+    opacity: 0;
+    top: 200px;
+    left: 100%;
+    transition: 0.5s;
+}
